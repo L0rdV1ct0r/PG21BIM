@@ -198,7 +198,6 @@ public class ViewCadastro {
 				if (encontrado == 0) {System.out.println("não encontrado");return;}
 				System.out.println("total de encontrados : "+encontrado);
 				break;
-
 		}
 		
 		
@@ -222,6 +221,10 @@ public class ViewCadastro {
 		return 1;
 	}
 	
+	public void SairMenu()
+	{
+		System.out.println("saindo do programa");
+	}
 
 
 }

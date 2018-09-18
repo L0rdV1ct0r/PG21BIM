@@ -30,7 +30,6 @@ public class ControleCadastro
 		switch (opc) 
 		{
 		    case "1":
-			    //agenda[contadorAgenda++] = viewCadastro.inserir();
 		    	agenda.add(viewCadastro.inserir());
 			    break;
 			case "2":
@@ -46,7 +45,7 @@ public class ControleCadastro
 				viewCadastro.Remover(agenda);
 				break;
 			case "6":
-				System.out.println("sair do menu");
+				viewCadastro.SairMenu();
 				continuar = false;
 				break;
 		default:
